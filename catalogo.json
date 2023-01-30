@@ -1,0 +1,24 @@
+{
+    "books": [
+        {
+            "Nome do livro": "O Peregrino",
+            "Gênero do livro": "Cristão",
+            "Sub-Gênero do livro": "Alegoria Cristã",
+            "Números de páginas": "288",
+            "Publicado em": "1678",
+            "autor": "John Bunyan",
+            "Nacionalidade do autor": "Inglaterra",
+            "Gênero do autor": "Masculino"
+        },
+        {
+            "Nome do livro": "O Misterioso Caso De Styles",
+            "Gênero do livro": "Romance Policial",
+            "Sub-Gênero do livro": "Detetive",
+            "Números de páginas": "210",
+            "Publicado em": "1920",
+            "autor": "Agatha Christie",
+            "Nacionalidade do autor": "Inglaterra",
+            "Gênero do autor": "Feminino"
+        }
+    ]
+}
