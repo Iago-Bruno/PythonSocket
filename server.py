@@ -3,17 +3,18 @@ import threading
 import requests
 import json
 import time
+import os
 
 HOST = '127.0.1.1'
 PORT = 5800
 LISTENER_LIMIT = 5
-clientes_ativos  = []
 
 def main():
     server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
     try:
         server.bind((HOST, PORT))
+        os.system("clear")
         print(f'Servidor {HOST}:{PORT} online')
     except:
         print(f'Impossivel se conectar com o host {HOST} e porta {PORT}')
@@ -23,11 +24,11 @@ def main():
     while True:
         try:
             client, address = server.accept()
-            print(f'Cliente {address[0]}:{address[1]} conectado com sucesso')
+            print(f'Cliente {address[0]}:{address[1]} conectado com sucesso\n')
 
             threading.Thread(target=getUserResponse, args=(client, )).start()
         except:
-            print("Até a proxima meu caro 🤙👋")
+            print("\nAté a proxima meu caro 🤙👋")
             time.sleep(1)
             exit()
 
@@ -46,7 +47,7 @@ def getUserResponse(client):
                 response = getBooksData()
             sendMensage(client, response)
         except:
-            print("❌ Usuário cancelou o uso do socket ou escreveu algum comando errado ❗ \n")
+            print("❌ Usuário cancelou o uso da aplicação ou escreveu algum comando errado ❗ \n")
             return ''
 
 def getStockExchange():

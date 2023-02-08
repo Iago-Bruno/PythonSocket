@@ -3,13 +3,13 @@ import os
 import time
 
 class bcolors:
-        RED   = "\033[1;31m"
-        BLUE  = "\033[1;34m"
-        CYAN  = "\033[1;36m"
-        GREEN = "\033[0;32m"
-        RESET = "\033[0;0m"
-        BOLD    = "\033[;1m"
-        REVERSE = "\033[;7m"
+    RED   = "\033[1;31m"
+    BLUE  = "\033[1;34m"
+    CYAN  = "\033[1;36m"
+    GREEN = "\033[0;32m"
+    RESET = "\033[0;0m"
+    BOLD    = "\033[;1m"
+    REVERSE = "\033[;7m"
 
 HOST = '127.0.1.1'
 PORT = 5800

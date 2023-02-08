@@ -19,6 +19,36 @@
             "autor": "Agatha Christie",
             "Nacionalidade do autor": "Inglaterra",
             "Gênero do autor": "Feminino"
+        },
+        {
+            "Nome do livro": "Renascença - Assassin's Creed",
+            "Gênero do livro": "Ficção histórica",
+            "Sub-Gênero do livro": "Fantasia",
+            "Números de páginas": "388",
+            "Publicado em": "2009",
+            "autor": "Anton Gill",
+            "Nacionalidade do autor": "Reino Unido",
+            "Gênero do autor": "Masculino"
+        },
+        {
+            "Nome do livro": "O futuro da humanidade",
+            "Gênero do livro": "Psicologia",
+            "Sub-Gênero do livro": "Ficção",
+            "Números de páginas": "251",
+            "Publicado em": "2005",
+            "autor": "Augusto Cury",
+            "Nacionalidade do autor": "Brasil",
+            "Gênero do autor": "Masculino"
+        },
+        {
+            "Nome do livro": "O futuro da humanidade",
+            "Gênero do livro": "Livro de autoajuda",
+            "Sub-Gênero do livro": "Desenvolvimento Pessoal",
+            "Números de páginas": "255",
+            "Publicado em": "2008",
+            "autor": "Augusto Cury",
+            "Nacionalidade do autor": "Brasil",
+            "Gênero do autor": "Masculino"
         }
     ]
 }
